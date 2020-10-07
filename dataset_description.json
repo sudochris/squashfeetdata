@@ -1,0 +1,148 @@
+{
+  "datasets": [
+    {
+      "name": "V0_ALepper_EThomas",
+      "url": "https://www.youtube.com/watch?v=ghPF6bCTjiQ",
+      "files": {
+        "annotation_file":  "ALepper_EThomas/annotation/ALepper_EThomas_annotation.json",
+        "annotation_numpy": "ALepper_EThomas/npz/V0_ALepper_EThomas_annotation.npy",
+        "events_file":      "ALepper_EThomas/annotation/ALepper_EThomas_events.json",
+        "calibration_file": "ALepper_EThomas/npz/ALepper_EThomas_calib.npz",
+        "court_file":       "ALepper_EThomas/npz/ALepper_EThomas_court.npz",
+        "video_file":       "ALepper_EThomas/videos/ALepper_EThomas.mp4",
+        "result_folder":    "ALepper_EThomas/results",
+        "npz_folder":       "ALepper_EThomas/npz"
+      },
+      "algorithms": [
+        { "name":                    "A0_arttrack",
+          "folder":                  "ALepper_EThomas/algorithms/arttrack",
+          "keypoint_file_pattern":   "ALepper_EThomas_{:08}.json",
+          "numpy_file":              "ALepper_EThomas/npz/V0_ALepper_EThomas_A0_arttrack.npy" },
+        { "name":                    "A1F0_openpose_body25",
+          "folder":                  "ALepper_EThomas/algorithms/openpose/body25",
+          "keypoint_file_pattern":   "ALepper_EThomas_short_{:012}_keypoints.json",
+          "numpy_file":              "ALepper_EThomas/npz/V0_ALepper_EThomas_A1F0_openpose_body25.npy" },
+        { "name":                    "A1F1_openpose_coco",
+          "folder":                  "ALepper_EThomas/algorithms/openpose/coco",
+          "keypoint_file_pattern":   "ALepper_EThomas_short_{:012}_keypoints.json",
+          "numpy_file":              "ALepper_EThomas/npz/V0_ALepper_EThomas_A1F1_openpose_coco.npy" },
+        { "name":                    "A1F2_openpose_mpi",
+          "folder":                  "ALepper_EThomas/algorithms/openpose/mpi",
+          "keypoint_file_pattern":   "ALepper_EThomas_short_{:012}_keypoints.json",
+          "numpy_file":              "ALepper_EThomas/npz/V0_ALepper_EThomas_A1F2_openpose_mpi.npy" },
+        { "name":                    "A2_posenet",
+          "folder":                  "ALepper_EThomas/algorithms/posenet",
+          "keypoint_file_pattern":   "ALepper_EThomas.json" ,
+          "numpy_file":              "ALepper_EThomas/npz/V0_ALepper_EThomas_A2_posenet.npy" }
+      ]
+    },
+    {
+      "name": "V1_APalmer_NSayes",
+      "url": "https://www.youtube.com/watch?v=ygYiDkqzvfE",
+      "files": {
+         "annotation_file":  "APalmer_NSayes/annotation/APalmer_NSayes_annotation.json",
+         "annotation_numpy": "APalmer_NSayes/npz/V1_APalmer_NSayes_annotation.npy",
+         "events_file":      "APalmer_NSayes/annotation/APalmer_NSayes_events.json",
+         "calibration_file": "APalmer_NSayes/npz/APalmer_NSayes_calib.npz",
+         "court_file":       "APalmer_NSayes/npz/APalmer_NSayes_court.npz",
+         "video_file":       "APalmer_NSayes/videos/APalmer_NSayes.mp4",
+         "result_folder":    "APalmer_NSayes/results",
+         "npz_folder":       "APalmer_NSayes/npz"
+       },
+      "algorithms": [
+         { "name":                    "A0_arttrack",
+           "folder":                  "APalmer_NSayes/algorithms/arttrack",
+           "keypoint_file_pattern":   "APalmer_NSayes_{:08}.json",
+           "numpy_file":              "APalmer_NSayes/npz/V1_APalmer_NSayes_A0_arttrack.npy" },
+         { "name":                    "A1F0_openpose_body25",
+           "folder":                  "APalmer_NSayes/algorithms/openpose/body25",
+           "keypoint_file_pattern":   "APalmer_NSayes_short_{:012}_keypoints.json" ,
+           "numpy_file":              "APalmer_NSayes/npz/V1_APalmer_NSayes_A1F0_openpose_body25.npy" },
+         { "name":                    "A1F1_openpose_coco",
+           "folder":                  "APalmer_NSayes/algorithms/openpose/coco",
+           "keypoint_file_pattern":   "APalmer_NSayes_short_{:012}_keypoints.json" ,
+           "numpy_file":              "APalmer_NSayes/npz/V1_APalmer_NSayes_A1F1_openpose_coco.npy" },
+         { "name":                    "A1F2_openpose_mpi",
+           "folder":                  "APalmer_NSayes/algorithms/openpose/mpi",
+           "keypoint_file_pattern":   "APalmer_NSayes_short_{:012}_keypoints.json",
+           "numpy_file":              "APalmer_NSayes/npz/V1_APalmer_NSayes_A1F2_openpose_mpi.npy" },
+         { "name":                    "A2_posenet",
+           "folder":                  "APalmer_NSayes/algorithms/posenet",
+           "keypoint_file_pattern":   "APalmer_NSayes.json" ,
+           "numpy_file":              "APalmer_NSayes/npz/V1_APalmer_NSayes_A2_posenet.npy" }
+      ]
+    },
+    {
+      "name": "V2_RAshour_GGaultier",
+      "url": "https://www.youtube.com/watch?v=5O3fpxcExu0",
+      "files": {
+        "annotation_file":  "RAshour_GGaultier/annotation/RAshour_GGaultier_annotation.json",
+        "annotation_numpy": "RAshour_GGaultier/npz/V2_RAshour_GGaultier_annotation.npy",
+        "events_file":      "RAshour_GGaultier/annotation/RAshour_GGaultier_events.json",
+        "calibration_file": "RAshour_GGaultier/npz/RAshour_GGaultier_calib.npz",
+        "court_file":       "RAshour_GGaultier/npz/RAshour_GGaultier_court.npz",
+        "video_file":       "RAshour_GGaultier/videos/RAshour_GGaultier.mp4",
+        "result_folder":    "RAshour_GGaultier/results",
+        "npz_folder":       "RAshour_GGaultier/npz"
+      },
+      "algorithms": [
+        { "name":                    "A0_arttrack",
+          "folder":                  "RAshour_GGaultier/algorithms/arttrack",
+          "keypoint_file_pattern":   "RAshour_GGaultier_{:08}.json",
+          "numpy_file":              "RAshour_GGaultier/npz/V2_RAshour_GGaultier_A0_arttrack.npy" },
+        { "name":                    "A1F0_openpose_body25",
+          "folder":                  "RAshour_GGaultier/algorithms/openpose/body25",
+          "keypoint_file_pattern":   "RAshour_GGaultier_short_{:012}_keypoints.json",
+          "numpy_file":              "RAshour_GGaultier/npz/V2_RAshour_GGaultier_A1F0_openpose_body25.npy" },
+        { "name":                    "A1F1_openpose_coco",
+          "folder":                  "RAshour_GGaultier/algorithms/openpose/coco",
+          "keypoint_file_pattern":   "RAshour_GGaultier_short_{:012}_keypoints.json",
+          "numpy_file":              "RAshour_GGaultier/npz/V2_RAshour_GGaultier_A1F1_openpose_coco.npy" },
+        { "name":                    "A1F2_openpose_mpi",
+          "folder":                  "RAshour_GGaultier/algorithms/openpose/mpi",
+          "keypoint_file_pattern":   "RAshour_GGaultier_short_{:012}_keypoints.json",
+          "numpy_file":              "RAshour_GGaultier/npz/V2_RAshour_GGaultier_A1F2_openpose_mpi.npy" },
+        { "name":                    "A2_posenet",
+          "folder":                  "RAshour_GGaultier/algorithms/posenet",
+          "keypoint_file_pattern":   "RAshour_GGaultier.json",
+          "numpy_file":              "RAshour_GGaultier/npz/V2_RAshour_GGaultier_A2_posenet.npy" }
+      ]
+    },
+    {
+       "name": "V3_RKandra_IBernabeu",
+       "url": "https://www.youtube.com/watch?v=GfMjfmWAIPc",
+       "files": {
+         "annotation_file":  "RKandra_IBernabeu/annotation/RKandra_IBernabeu_annotation.json",
+         "annotation_numpy": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_annotation.npy",
+         "events_file":      "RKandra_IBernabeu/annotation/RKandra_IBernabeu_events.json",
+         "calibration_file": "RKandra_IBernabeu/npz/RKandra_IBernabeu_calib.npz",
+         "court_file":       "RKandra_IBernabeu/npz/RKandra_IBernabeu_court.npz",
+         "video_file":       "RKandra_IBernabeu/videos/RKandra_IBernabeu.mkv",
+         "result_folder":    "RKandra_IBernabeu/results",
+         "npz_folder":       "RKandra_IBernabeu/npz"
+       },
+       "algorithms": [
+         { "name":                    "A0_arttrack",
+           "folder":                  "RKandra_IBernabeu/algorithms/arttrack",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_{:08}.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A0_arttrack.npy" },
+         { "name":                    "A1F0_openpose_body25",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/body25",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F0_openpose_body25.npy" },
+         { "name":                    "A1F1_openpose_coco",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/coco",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F1_openpose_coco.npy" },
+         { "name":                    "A1F2_openpose_mpi",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/mpi",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F2_openpose_mpi.npy" },
+         { "name":                    "A2_posenet",
+           "folder":                  "RKandra_IBernabeu/algorithms/posenet",
+           "keypoint_file_pattern":   "RKandra_IBernabeu.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A2_posenet.npy" }
+       ]
+    }
+  ]
+}
