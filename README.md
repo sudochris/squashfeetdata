@@ -1,7 +1,7 @@
 ![logo](logo.png)
 ![license](https://img.shields.io/badge/License-GPLV3-green)
 
-## Dataset and some results from "Evaluation of pre-trained and open-source deep convolutional neural networks suitable for player detection and motion analysis in squash"
+## Dataset and results from "Evaluation of pre-trained and open-source deep convolutional neural networks suitable for player detection and motion analysis in squash"
 
 This dataset contains labeled data of four videos for player feet in squash. Beside the hand labeled data, detections obtained from different deep convolutional neural networks are included.
 
