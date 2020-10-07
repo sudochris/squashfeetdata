@@ -3,6 +3,7 @@
     {
       "name": "V0_ALepper_EThomas",
       "url": "https://www.youtube.com/watch?v=ghPF6bCTjiQ",
+      "num_frames": 1886,
       "files": {
         "annotation_file":  "ALepper_EThomas/annotation/ALepper_EThomas_annotation.json",
         "annotation_numpy": "ALepper_EThomas/npz/V0_ALepper_EThomas_annotation.npy",
@@ -39,6 +40,7 @@
     {
       "name": "V1_APalmer_NSayes",
       "url": "https://www.youtube.com/watch?v=ygYiDkqzvfE",
+      "num_frames": 869,
       "files": {
          "annotation_file":  "APalmer_NSayes/annotation/APalmer_NSayes_annotation.json",
          "annotation_numpy": "APalmer_NSayes/npz/V1_APalmer_NSayes_annotation.npy",
@@ -75,6 +77,7 @@
     {
       "name": "V2_RAshour_GGaultier",
       "url": "https://www.youtube.com/watch?v=5O3fpxcExu0",
+      "num_frames": 146,
       "files": {
         "annotation_file":  "RAshour_GGaultier/annotation/RAshour_GGaultier_annotation.json",
         "annotation_numpy": "RAshour_GGaultier/npz/V2_RAshour_GGaultier_annotation.npy",
@@ -111,6 +114,7 @@
     {
        "name": "V3_RKandra_IBernabeu",
        "url": "https://www.youtube.com/watch?v=GfMjfmWAIPc",
+       "num_frames": 1431,
        "files": {
          "annotation_file":  "RKandra_IBernabeu/annotation/RKandra_IBernabeu_annotation.json",
          "annotation_numpy": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_annotation.npy",
