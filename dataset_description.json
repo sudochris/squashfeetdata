@@ -149,6 +149,7 @@
        "url": "https://www.youtube.com/watch?v=GfMjfmWAIPc",
        "num_frames": 1431,
        "files": {
+         "court_image_file": "RKandra_IBernabeu/court.png",
          "annotation_file":  "RKandra_IBernabeu/annotation/RKandra_IBernabeu_annotation.json",
          "annotation_numpy": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_annotation.npy",
          "events_file":      "RKandra_IBernabeu/annotation/RKandra_IBernabeu_events.json",
