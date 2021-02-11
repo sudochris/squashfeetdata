@@ -145,52 +145,41 @@
       ]
     },
     {
-      "name": "V3_RKandra_IBernabeu",
-      "url": "https://www.youtube.com/watch?v=GfMjfmWAIPc",
-      "num_frames": 1431,
-      "files": {
-        "court_image_file": "RKandra_IBernabeu/court.png",
-        "annotation_file": "RKandra_IBernabeu/annotation/RKandra_IBernabeu_annotation.json",
-        "annotation_numpy": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_annotation.npy",
-        "events_file": "RKandra_IBernabeu/annotation/RKandra_IBernabeu_events.json",
-        "calibration_file": "RKandra_IBernabeu/npz/RKandra_IBernabeu_calib.npz",
-        "court_file": "RKandra_IBernabeu/npz/RKandra_IBernabeu_court.npz",
-        "video_file": "RKandra_IBernabeu/videos/RKandra_IBernabeu.mkv",
-        "result_folder": "RKandra_IBernabeu/results",
-        "npz_folder": "RKandra_IBernabeu/npz"
-      },
-      "algorithms": [
-        {
-          "name": "A0_arttrack",
-          "folder": "RKandra_IBernabeu/algorithms/arttrack",
-          "keypoint_file_pattern": "RKandra_IBernabeu_{:08}.json",
-          "numpy_file": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A0_arttrack.npy"
-        },
-        {
-          "name": "A1F0_openpose_body25",
-          "folder": "RKandra_IBernabeu/algorithms/openpose/body25",
-          "keypoint_file_pattern": "RKandra_IBernabeu_short_{:012}_keypoints.json",
-          "numpy_file": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F0_openpose_body25.npy"
-        },
-        {
-          "name": "A1F1_openpose_coco",
-          "folder": "RKandra_IBernabeu/algorithms/openpose/coco",
-          "keypoint_file_pattern": "RKandra_IBernabeu_short_{:012}_keypoints.json",
-          "numpy_file": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F1_openpose_coco.npy"
-        },
-        {
-          "name": "A1F2_openpose_mpi",
-          "folder": "RKandra_IBernabeu/algorithms/openpose/mpi",
-          "keypoint_file_pattern": "RKandra_IBernabeu_short_{:012}_keypoints.json",
-          "numpy_file": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F2_openpose_mpi.npy"
-        },
-        {
-          "name": "A2_posenet",
-          "folder": "RKandra_IBernabeu/algorithms/posenet",
-          "keypoint_file_pattern": "RKandra_IBernabeu.json",
-          "numpy_file": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A2_posenet.npy"
-        }
-      ]
+       "name": "V3_RKandra_IBernabeu",
+       "url": "https://www.youtube.com/watch?v=GfMjfmWAIPc",
+       "num_frames": 1431,
+       "files": {
+         "annotation_file":  "RKandra_IBernabeu/annotation/RKandra_IBernabeu_annotation.json",
+         "annotation_numpy": "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_annotation.npy",
+         "events_file":      "RKandra_IBernabeu/annotation/RKandra_IBernabeu_events.json",
+         "calibration_file": "RKandra_IBernabeu/npz/RKandra_IBernabeu_calib.npz",
+         "court_file":       "RKandra_IBernabeu/npz/RKandra_IBernabeu_court.npz",
+         "video_file":       "RKandra_IBernabeu/videos/RKandra_IBernabeu.mkv",
+         "result_folder":    "RKandra_IBernabeu/results",
+         "npz_folder":       "RKandra_IBernabeu/npz"
+       },
+       "algorithms": [
+         { "name":                    "A0_arttrack",
+           "folder":                  "RKandra_IBernabeu/algorithms/arttrack",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_{:08}.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A0_arttrack.npy" },
+         { "name":                    "A1F0_openpose_body25",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/body25",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F0_openpose_body25.npy" },
+         { "name":                    "A1F1_openpose_coco",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/coco",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F1_openpose_coco.npy" },
+         { "name":                    "A1F2_openpose_mpi",
+           "folder":                  "RKandra_IBernabeu/algorithms/openpose/mpi",
+           "keypoint_file_pattern":   "RKandra_IBernabeu_short_{:012}_keypoints.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A1F2_openpose_mpi.npy" },
+         { "name":                    "A2_posenet",
+           "folder":                  "RKandra_IBernabeu/algorithms/posenet",
+           "keypoint_file_pattern":   "RKandra_IBernabeu.json",
+           "numpy_file":              "RKandra_IBernabeu/npz/V3_RKandra_IBernabeu_A2_posenet.npy" }
+       ]
     }
   ]
 }
